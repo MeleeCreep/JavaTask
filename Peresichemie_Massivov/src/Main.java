@@ -15,6 +15,8 @@ public class Main {
             for(int j = 0; j <smsplit.length; j++){
                 if(fmsplit[i].equals(smsplit[j])){
                     sameElem.add(fmsplit[i]);
+                    smsplit[j] = "";
+                    break;
                 }
             }
         }
