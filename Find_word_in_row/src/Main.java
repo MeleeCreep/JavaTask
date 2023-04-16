@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        //Создайте программу, которая находит наиболее встречающееся слово в заданной строке. 
+        //Результат выводится в консоль. Входные данные - строка с произвольным количеством слов. 
+        //Выходные данные - слово, которое встречается чаще всех в строке.
         while (true) {
             try {
                 Scanner input = new Scanner(System.in);
