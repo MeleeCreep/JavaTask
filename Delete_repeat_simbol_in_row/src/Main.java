@@ -4,6 +4,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
+        //Создайте программу, которая из введенной строки убирает повторяющиеся символы. Результат выводится в консоль. 
+        //Входные данные - строка с произвольным количеством символов. Выходные данные - измененная строка с уникальными символами.
         while (true) {
             try {
                 Scanner input = new Scanner(System.in);
