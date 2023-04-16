@@ -7,7 +7,7 @@ public class Main {
         String result;
         for(int i=0; i < Math.floor(lineM.length / 2); i++){
             if(!(lineM[i].equals(lineM[lineL - i]))){
-                result = "Строка НЕ является палиндромом!";
+                result = "Массив НЕ является палиндромом!";
                 return result;
             }
         }
@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner text = new Scanner(System.in);
-        System.out.println("Введите элементы массива: ");
+        System.out.println("Введите элементы массива через пробел: ");
         String line = text.nextLine();
         text.close();
         String res = Palindrom(line);
